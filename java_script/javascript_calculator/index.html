@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+var num1 = parseInt(prompt("Unesite prvi broj:"));
+var operator = prompt("Unesite operaciju (+, -, *, /):");
+var num2 = parseInt(prompt("Unesite drugi broj:"));
+
+var result;
+
+if (operator === "+") {
+    result = num1 + num2;
+} else if (operator === "-") {
+    result = num1 - num2;
+} else if (operator === "*") {
+    result = num1 * num2;
+} else if (operator === "/") {
+    result = num1 / num2;
+} else {
+    result = "Nepoznata operacija";
+}
+
+alert("Rezultat: " + result);
+
+
+    </script>
+</body>
+</html>
